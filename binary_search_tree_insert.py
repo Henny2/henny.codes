@@ -1,4 +1,14 @@
 # adding the classes and functions for inserting into a binary search tree
+class Node:
+    def __init__(self, val):
+        self.value = val
+        self.left = None
+        self.right = None
+
+    def __repr__(self) -> str:
+        return f'|- Value: {self.value}, Left: {self.left}, Right: {self.right} -|'
+
+
 class BinarySearchTree:
     def __init__(self):
         self.root = None
@@ -25,16 +35,6 @@ class BinarySearchTree:
                         current_node.right = new_node
                         inserted = True
         return self.root
-
-
-class Node:
-    def __init__(self, val):
-        self.value = val
-        self.left = None
-        self.right = None
-
-    def __repr__(self) -> str:
-        return f'|- Value: {self.value}, Left: {self.left}, Right: {self.right} -|'
 
 
 n1 = Node(8)
