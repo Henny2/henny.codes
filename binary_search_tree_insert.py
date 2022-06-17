@@ -37,12 +37,12 @@ class BinarySearchTree:
         return self.root
 
 
-n1 = Node(8)
-print(n1.left)
-bst1 = BinarySearchTree()
-print(bst1.insert(10))
-print(bst1.insert(3))
-print(bst1.insert(15))
-print(bst1.insert(8))
-print(bst1.insert(2))
-print(bst1.root.value)
+# n1 = Node(8)
+# print(n1.left)
+# bst1 = BinarySearchTree()
+# print(bst1.insert(10))
+# print(bst1.insert(3))
+# print(bst1.insert(15))
+# print(bst1.insert(8))
+# print(bst1.insert(2))
+# print(bst1.root.value)

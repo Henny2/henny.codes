@@ -24,3 +24,12 @@ test_dict = {
 # print(f'Select {list_dict}')
 
 # print(isinstance([4, 5, 4], list))
+partition_list = ['hi']
+where_clause = ""
+where_clause = " AND ".join(partition_list)
+print(where_clause)
+
+if where_clause:
+    print('yes')
+else:
+    print('no')

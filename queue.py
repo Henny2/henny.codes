@@ -27,7 +27,6 @@ class Queue:
             value (any): value that will be added to the queue
         """
         new_node = Node(value)
-
         if self.size == 0:
             self.head = new_node
             self.tail = new_node
@@ -54,6 +53,6 @@ class Queue:
         return dequeued_node
 
 
-q = Queue()
-print(q.enqueue(1))
-print(q.enqueue(8))
+# q = Queue()
+# print(q.enqueue(1))
+# print(q.enqueue(8))
